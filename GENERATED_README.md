@@ -1,14 +1,14 @@
-# Project Title (question 1 - input)
+# Project Title
 
-![mit license](https://img.shields.io/badge/license-MIT-green) (question 2 - choices)
+![mit license](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-Project description goes here (question 3 - input)
+Project description goes here
 
 ## Table of Contents
 
-- [Project Title (question 1 - input)](#project-title-question-1---input)
+- [Project Title](#project-title)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -20,8 +20,6 @@ Project description goes here (question 3 - input)
 
 ## Installation
 
-(question 4 - ???)
-
 ```
 npm install
 node index.js
@@ -29,18 +27,15 @@ node index.js
 
 ## Usage
 
-(question 5 - ???)
-
 - When the app is running answer all questions
 - After all questions view generated README markdown file
 
 ## License
 
-MIT License (question 2 - choices)
+MIT License
 
 ## Contributing
 
-(question 6 - input)
 Open an issue or a pull request and I will sort it.
 
 ## Tests
