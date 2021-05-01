@@ -94,6 +94,8 @@ console.log(answers);
 
  const generatedMarkdown = generateMarkdown(answers);
 
+ writeToFile(generated_readme.md);
+
 };
 
 // Function call to initialize app
