@@ -72,16 +72,17 @@ const questions = [
 
 // TODO: Create a function to write README file
 // function err
-const writeToFile = (fileName, data) => {
-  
-  const callback(err);
-  fs.writeFile:(generated_readme.md, data, callback);
-
+const writeToFile = (data) => {
+const callback (err) => {
   if(err){
-console.log(err)
+    console.log(err)
   } else{
     console.log ("Generated ReadMe has be created successfully")
   }
+}
+
+fs.writeFile:(generated_readme.md, data, callback);
+
   
 };
 
@@ -93,8 +94,6 @@ console.log(answers);
 
  const generatedMarkdown = generateMarkdown(answers);
 
-
-  inquirer;
 };
 
 // Function call to initialize app
