@@ -16,15 +16,15 @@ const bsd = "Licensed under the [The 3-Clause BSD] (https://opensource.org/licen
 // TODO: Create an array of questions for user input
 const questions = [
   {
-    type: "input";
-    name: "title";
-    message: "What's the name of the project?"
+    type: "input",
+    name: "title",
+    message: "What's the name of the project?",
   },
 
   {
-    type: "list";
-    name: "license";
-    message: "What type of licenses would you like?"
+    type: "list",
+    name: "license",
+    message: "What type of licenses would you like?",
     choices: [
       "APACHE_2.0",
       "MIT",
@@ -34,33 +34,34 @@ const questions = [
   },
 
   {
-    type: "input";
-    name: "description";
-    message: "Can you resume your project?"
+    type: "input",
+    name: "description",
+    message: "Can you resume your project?",
+
   },
 
   {
-    type: "input";
-    name: "installation";
-    message: "What do you need to install so that the application will work?"
+    type: "input",
+    name: "installation",
+    message: "What do you need to install so that the application will work?",
   },
 
   {
-    type: "input";
-    name: "usage";
-    message: "Which are the steps for using your application?"
+    type: "input",
+    name: "usage",
+    message: "Which are the steps for using your application?",
   },
 
   {
-    type: "input";
-    name: "tests";
-    message: "How would you run tests on this project?"
+    type: "input",
+    name: "tests",
+    message: "How would you run tests on this project?",
   },
 
   {
-    type: "list";
-    name: "contributors";
-    message: "Would you like other developers to work on this project?"
+    type: "list",
+    name: "contributors",
+    message: "Would you like other developers to work on this project?",
     choices: [
       "Yes",
       "No"
@@ -73,7 +74,7 @@ const questions = [
 // TODO: Create a function to write README file
 // function err
 const writeToFile = (data) => {
-const callback (err) => {
+const callback(err) => {
   if(err){
     console.log(err)
   } else{
@@ -81,7 +82,7 @@ const callback (err) => {
   }
 }
 
-fs.writeFile:(generated_readme.md, data, callback);
+fs.writeFile(generated_readme.md, data, callback);
 
   
 };
