@@ -52,7 +52,7 @@ ${data.tests}
 
 For any questions please contact the developer on the github link 
 
-´;
+`;
 };
 
 module.exports = generateMarkdown;
