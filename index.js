@@ -68,14 +68,33 @@ const questions = [
   },
 ];
 
+// async function in order to insert all the data 
+
 // TODO: Create a function to write README file
 // function err
 const writeToFile = (fileName, data) => {
+  const callback(err);
+  fs.writeFile:(generated_readme.md, data, callback);
+
+  if(err){
+console.log(err)
+  } else{
+    console.log ("Generated ReadMe has be created successfully")
+  }
   
 };
 
 // TODO: Create a function to initialize app
-const init = () => {};
+const init = async () => {
+const answers = await inquirer.prompt(questions);
+
+console.log(answers);
+
+ const generatedMarkdown = generateMarkdown(answers);
+
+
+  inquirer;
+};
 
 // Function call to initialize app
 init();
