@@ -33,7 +33,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Can you resume your project?",
+    message: "Please give a short description of your application?",
   },
 
   {
@@ -84,7 +84,7 @@ const init = async () => {
 
   const generatedMarkdown = generateMarkdown(answers);
 
-  writeToFile(generated_readme.md);
+  writeToFile(generateMarkdown);
 };
 
 // Function call to initialize app
