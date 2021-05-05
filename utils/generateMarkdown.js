@@ -49,8 +49,14 @@ ${data.contributors}
 ${data.tests}
 
 ## Questions
+${data.questions}
 
 For any questions please contact the developer on the github link 
+
+https://github.com/otivisan22/ReadMe_Generator
+
+Email me at hampusb@gmail.com
+
 
 `;
 };
