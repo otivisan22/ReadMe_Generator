@@ -40,10 +40,9 @@ Open an issue or a pull request and I will sort it.
 
 ## Tests
 
-(question 7 - input)
 There are no tests for this app
 
 ## Questions
 
 - View my [GitHub](https://github.com/otivisan22) profile (question 8 - input)
-- Email me at bob@email.com (question 9 - input)
+- Email me at hampusb@email.com (question 9 - input)
