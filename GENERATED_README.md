@@ -1,13 +1,16 @@
 # title
-  # Project Title
+
+# Project Title
 
 ![mit license](https://img.shields.io/badge/license-MIT-green)
 
-## Description 
+## Description
+
 description
 
 ## Table of Contents
 
+- [title](#title)
 - [Project Title](#project-title)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
@@ -23,24 +26,25 @@ description
 installation
 
 ## Usage
+
 usage
 
 ## License
+
 APACHE_2.0
 
 ## Contributing
+
 No
 
 ## Tests
+
 tests
 
 ## Questions
-https://github.com/otivisan22/ReadMe_Generator
 
-For any questions please contact the developer on the github link 
+For any questions please contact the developer on the github link
 
 https://github.com/otivisan22/ReadMe_Generator
 
 Email me at hampusb@gmail.com
-
-
