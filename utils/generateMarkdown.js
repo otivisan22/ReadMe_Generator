@@ -8,7 +8,7 @@ const renderLicenseBadge = (license) => {
     return "![mit license](https://img.shields.io/badge/license-MIT-green)";
   }
   if (license === "GPL_3.0") {
-    return "Licensed under the [Gnu GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).";
+    return "![Gnu GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html)";
   }
 
   if (license === "BSD_3") {
