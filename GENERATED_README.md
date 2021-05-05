@@ -44,5 +44,5 @@ There are no tests for this app
 
 ## Questions
 
-- View my [GitHub](https://github.com/otivisan22) profile (question 8 - input)
-- Email me at hampusb@email.com (question 9 - input)
+- View my [GitHub](https://github.com/otivisan22) profile
+- Email me at hampusb@email.com
