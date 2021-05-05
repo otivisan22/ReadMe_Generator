@@ -82,11 +82,11 @@ const writeToFile = (data) => {
     if (err) {
       console.log(err);
     } else {
-      console.log("Generated ReadMe has be created successfully");
+      console.log("Generated ReadMe has been created successfully");
     }
   };
 
-  fs.writeFile(generated_readme.md, data, callback);
+  fs.writeFile("GENERATED_README.md", data, callback);
 };
 
 // TODO: Create a function to initialize app
@@ -95,9 +95,10 @@ const init = async () => {
 
   console.log(answers);
 
-  const generatedMarkdown = generateMarkdown(answers);
+  const markdown = generateMarkdown(answers);
 
-  writeToFile(generateMarkdown);
+  console.log(markdown);
+  writeToFile(markdown);
 };
 
 // Function call to initialize app
