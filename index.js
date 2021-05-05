@@ -6,15 +6,6 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 
 //licenses
 
-const apache =
-  "Licensed under the [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).";
-const mit =
-  "Licensed under the [mit License](https://opensource.org/licenses/MIT).";
-const gnu =
-  "Licensed under the [Gnu GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).";
-const bsd =
-  "Licensed under the [The 3-Clause BSD] (https://opensource.org/licenses/BSD-3-Clause).";
-
 // TODO: Create an array of questions for user input
 const questions = [
   {
