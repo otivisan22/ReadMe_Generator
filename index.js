@@ -51,18 +51,15 @@ const questions = [
     message: "Would you like other developers to work on this project?",
     choices: ["Yes", "No"],
   },
-
   {
     type: "input",
-    name: "questions",
+    name: "username",
     message: "Can you provide me your github username?",
   },
-
   {
     type: "input",
-    name: "questions",
-    message: "Do you have an email address?",
-    choices: ["Yes", "No"],
+    name: "email",
+    message: "Enter your email address?",
   },
 ];
 

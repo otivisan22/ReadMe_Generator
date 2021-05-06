@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
   if (license === "APACHE_2.0") {
-    return "Licensed under the [Apache License] (https://www.apache.org/licenses/LICENSE-2.0).";
+    return "Licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).";
   }
   if (license === "MIT") {
     return "![mit license](https://img.shields.io/badge/license-MIT-green)";
@@ -10,28 +10,20 @@ const renderLicenseBadge = (license) => {
   if (license === "GPL_3.0") {
     return "![Gnu GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html)";
   }
-
   if (license === "BSD_3") {
-    return "Licensed under the [The 3-Clause BSD] (https://opensource.org/licenses/BSD-3-Clause).";
+    return "Licensed under the [The 3-Clause BSD](https://opensource.org/licenses/BSD-3-Clause).";
   }
   if (license === "None") {
     return "No License";
   }
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-const renderLicenseLink = (license) => {};
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-const renderLicenseSection = (license) => {};
-
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
+  
 
 ## Description 
 ${data.description}
@@ -64,14 +56,11 @@ ${data.contributors}
 ## Tests
 ${data.tests}
 
-## Questions
-${data.questions}
-
 For any questions please contact the developer on the github link 
 
-https://github.com/otivisan22/ReadMe_Generator
+https://github.com/${data.username}/ReadMe_Generator
 
-Email me at hampusb@gmail.com
+You can email me at: ${data.email}
 
 
 `;
