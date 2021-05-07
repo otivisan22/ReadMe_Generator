@@ -2,19 +2,19 @@
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
   if (license === "APACHE_2.0") {
-    return "Licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).";
+    return "![apache_2.0 license](https://img.shields.io/badge/license-APACHE_2.0-green)";
   }
   if (license === "MIT") {
     return "![mit license](https://img.shields.io/badge/license-MIT-green)";
   }
   if (license === "GPL_3.0") {
-    return "![Gnu GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html)";
+    return "![gpl_3.0 license](https://img.shields.io/badge/license-GPL_3.0-green)";
   }
   if (license === "BSD_3") {
-    return "Licensed under the [The 3-Clause BSD](https://opensource.org/licenses/BSD-3-Clause).";
+    return "![bsd_3 license](https://img.shields.io/badge/license-BSD_3-green)";
   }
   if (license === "None") {
-    return "No License";
+    return "";
   }
 };
 
