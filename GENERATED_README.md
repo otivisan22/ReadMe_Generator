@@ -1,14 +1,14 @@
-# Password generator
+# Password Generator
 
-![mit license](https://img.shields.io/badge/license-MIT-green)
+  ![mit license](https://img.shields.io/badge/license-MIT-green)
+  
 
-## Description
-
+## Description 
 Generates an unique password
 
 ## Table of Contents
 
-- [Password generator](#password-generator)
+- [Project Title](#project-title)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -16,31 +16,30 @@ Generates an unique password
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Questions](#questions)
 
 ## Installation
 
 npm i
 
 ## Usage
-
 npm start
 
 ## License
-
 MIT
 
 ## Contributing
-
 Yes
 
 ## Tests
-
 npm run tests
 
 ##Questions
 
-For any questions please contact the developer on the github link
+For any questions please contact the developer on the github link 
 
 https://github.com/otivisan22/ReadMe_Generator
 
-You can email me at: otilia.visan22@gmail.com
+You can email me at: otilia.visan22@mail.com
+
+
