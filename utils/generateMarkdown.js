@@ -56,6 +56,8 @@ ${data.contributors}
 ## Tests
 ${data.tests}
 
+##Questions
+
 For any questions please contact the developer on the github link 
 
 https://github.com/${data.username}/ReadMe_Generator
