@@ -4,7 +4,7 @@
   
 
 ## Description 
-Generates an unique password
+Generates an unique password 
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Generates an unique password
 
 ## Installation
 
-npm install
+npm i
 
 ## Usage
 npm start
@@ -32,7 +32,7 @@ MIT
 Yes
 
 ## Tests
-npm run test
+npm run tests
 
 For any questions please contact the developer on the github link 
 
